@@ -7,13 +7,7 @@ Kendi lokal ağınızda çalışan, Twitter (X) ve benzeri sosyal medya platform
 
 
 
-<p align="center">
-<em>Uygulamanın karanlık modlu modern arayüzü.</em>
-</p>
-<p align="center">
-<!-- 💡 İPUCU: Uygulamanın ekran görüntüsünü alıp (örn: https://imgur.com/upload) yükledikten sonra bu linki güncelleyebilirsiniz. -->
-<img src="https://www.google.com/search?q=https://i.imgur.com/your-screenshot-url.png" alt="Uygulama Ekran Görüntüsü" width="80%">
-</p>
+
 
 ✨ Temel Özellikler
 Modern ve Kullanışlı Arayüz: Şık bir karanlık moda sahip, mobil cihazlarla tam uyumlu (responsive) tasarım.

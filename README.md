@@ -1,27 +1,27 @@
-# Lokal Medya İndirici
-
+Lokal Medya İndirici
 Twitter (X) gibi sosyal medya platformlarından video/GIF indirmek için Python Flask ile geliştirilmiş, kendi ev ağınızda çalışan basit bir web uygulaması.
 
-![Uygulama Ekran Görüntüsü](https://i.imgur.com/your-screenshot-url.png)
+✨ Özellikler
+Modern Web Arayüzü: Karanlık modlu, şık ve mobil uyumlu (responsive) tasarım.
 
-## ✨ Özellikler
+Video Önizleme: İndirme linki bulunan videolar için sayfada anlık önizleme.
 
-- **Modern Web Arayüzü:** Karanlık modlu, şık ve mobil uyumlu (responsive) tasarım.
-- **Video Önizleme:** İndirme linki bulunan videolar için sayfada anlık önizleme.
-- **Kolay İndirme:** Tek tuşla videoyu tarayıcının indirme yöneticisine gönderme.
-- **Kısıtlamalı İçerik Desteği:** `cookies.txt` dosyası aracılığıyla yaş kısıtlamalı veya giriş gerektiren videolara erişim.
-- **Güvenli (HTTPS):** `mkcert` ile oluşturulan yerel sertifika sayesinde güvenli bağlantı.
-- **Platform Bağımsız:** Sunucu Windows/Mac/Linux üzerinde çalışır, arayüze tarayıcısı olan her cihazdan (iPhone, Android, PC vb.) erişilebilir.
+Kolay İndirme: Tek tuşla videoyu tarayıcının indirme yöneticisine gönderme.
 
-## 🚀 Kurulum ve Çalıştırma
+Kısıtlamalı İçerik Desteği: cookies.txt dosyası aracılığıyla yaş kısıtlamalı veya giriş gerektiren videolara erişim.
 
+Güvenli (HTTPS): mkcert ile oluşturulan yerel sertifika sayesinde güvenli bağlantı.
+
+Platform Bağımsız: Sunucu Windows/Mac/Linux üzerinde çalışır, arayüze tarayıcısı olan her cihazdan (iPhone, Android, PC vb.) erişilebilir.
+
+🚀 Kurulum ve Çalıştırma
 Bu adımları, sunucu olarak kullanacağınız bilgisayarda yapmanız gerekmektedir.
 
-### Adım 1: Projeyi İndirin ve Gerekli Araçları Yükleyin
+Adım 1: Projeyi İndirin ve Gerekli Araçları Yükleyin
+Önce projeyi klonlayın, ardından gerekli tüm Python kütüphanelerini ve mkcert aracını yükleyin.
 
-Önce projeyi klonlayın, ardından gerekli tüm Python kütüphanelerini ve `mkcert` aracını yükleyin.
+Bash
 
-```bash
 # Projeyi klonlayın ve klasörüne girin
 git clone [https://github.com/yunusonec/downloaderapp.git](https://github.com/yunusonec/downloaderapp.git)
 cd downloaderapp
@@ -82,4 +82,4 @@ httpss://<IP-ADRESINIZ>:5000
 
 Örneğin: httpss://192.168.1.8:5000
 
-Eğer router'ınızda Local DNS ayarı yaptıysanız, belirlediğiniz ismi de kullanabilirsiniz (örn: httpss://indirici:5000).
+Eğer router'ınızda Local DNS ayarı yaptıysanız, belirlediğiniz ismi de kullanebilirsiniz (örn: httpss://indirici:5000).

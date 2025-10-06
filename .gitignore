@@ -1,0 +1,12 @@
+# Hassas ve kişisel dosyalar
+*.pem
+cookies.txt
+
+# Python'a özgü dosyalar
+__pycache__/
+*.pyc
+.env
+
+# İşletim sistemine özgü dosyalar
+.DS_Store
+Thumbs.db
